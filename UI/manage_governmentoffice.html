@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>POLITICO | Manage Government Office</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" type="text/css" href="static/styleadmin.css">
+</head>
+
+<body>
+    <!--======================header============================ -->
+    <header class="header">
+        <div class="logo">
+            <a href="admin_dashboard.html">POLITICO</a>
+        </div>
+        <nav class="nav-wrapper">
+            <ul class="main-nav">
+                <li><a href="index.html" title="home">Home</a></li>
+                <li><a href="political_parties.html">Parties</a></li>
+                <li><a href="government_office.html" title="Government Office">Government-Office</a></li>
+
+                <li class="current"><a href="admin_dashboard.html">Dashboard</a></li>
+                
+            
+            </ul>
+        </nav>
+    </header> <!-- /header -->
+    <div class="content">
+        <div class="admin-header">
+            <div class="admin-logo">
+                <a href="admin_dashboard.html">
+                  <h1>POLITICO - Admin</h1>
+              </a>
+            </div>
+            <div class="user-info">
+                Yunis |
+                <a href="sign-in.html" class="signout-btn">sign-out</a>
+            </div>
+        </div>
+        <!-- Left menu -->
+        <div class="menu">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Actions</h2>
+                </div>
+                <div class="card-content">
+                    <a href="manage_politicalparties.html">Manage Political Parties</a>
+                    <a href="manage_governmentoffice.html">Manage Government Office</a>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- /Left menu -->
+        <!-- Middle form to create government office -->
+        <div class="action">
+            <p>Create Government Office</p>
+            <form method="post" action="#">
+                <div>
+                    <input type="text" name="Officename" value="" placeholder="Office-name" >
+                </div>
+               <div>
+                    <button type="submit" class="button button-primary" name="create_admin">Save</button>
+                </div>
+            </form>
+        </div>
+        <!-- /Middle form to create government office -->
+        <!--display records from DB -->
+        <div class="table-div">
+            <table class="table">
+                <thead>
+                    <th>N</th>
+                    <th>Name</th>
+                   
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Kiingati
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            Shiru
+                        </td>
+                     
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            Emily
+                        </td>
+                    
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            Dorris
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            Mukami
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            Johny
+                        </td>
+                    
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            Yunie
+                        </td>
+                       
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Footer -->
+	
+    <div class="footer">
+		<p>&copy; Yunis</p
+	</div>
+	<!-- /Footer -->
+</body>
+
+</html>
