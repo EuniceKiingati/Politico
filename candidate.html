@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>POLITICO | Vying Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" type="text/css" href="static/styleadmin.css">
+</head>
+<body>
+    <!--======================header============================ -->
+    <header class="header">
+        <div class="logo">
+            <a href="dashboard.html">POLITICO</a>
+        </div>
+        <nav class="nav-wrapper">
+            <ul class="main-nav">
+                <li><a href="admin_dashboard.html" title="home">Home</a></li>
+                <li><a href="manage_politicalparties.html" title="manage political parties"> Political </a></li>
+                <li><a href="government_office.html" title="Government Office">G-Office</a></li>
+                <li><a href="user_profile.html">Profile</a></li>
+                <li class="current"><a href="candidate.html" title="candidate">Vying</a></li>
+                <li><a href="admin_dashboard.html" title="dashboard">Dashboard</a></li>
+
+                
+            
+            </ul>
+        </nav>
+    </header> 
+        <div class="content vying">
+        <div class="admin-header">
+            <div class="admin-logo">
+                <a href="admin_dashboard.html">
+                  <h1>POLITICO - Vying Platform</h1>
+              </a>
+            </div>
+            <div class="user-info">
+                    Yunis |
+                    <a href="index.html" class="logout-btn">sign-out</a>
+                </div>
+        </div>
+        <div class="action vie">
+                <p>Fill the form in order to vie</p>
+                <form class="create-vying">
+                    <div>
+                        <input type="text" name="name" value="" placeholder="Name">
+                    </div>
+                    <div>
+                        <input type="text" name="email" value="" placeholder="Email">
+                    </div>
+                    <div>
+                            <select name="government_office">
+                                <option value="" selected disabled>Choose government office</option>
+                                <option value="">
+                                    Governor
+                                </option>
+                                <option value="">
+                                    MP
+                                </option>
+                                <option value="">
+                                    Senator
+                                </option>
+                                <option value="">
+                                    Women Rep
+                                </option>
+                                <option value="">
+                                    MCA
+                                </option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="political_party">
+                                <option value="" selected disabled>Choose political Party</option>
+                                <option value="">
+                                    Party 1
+                                </option>
+                                <option value="">
+                                    Party 2
+                                </option>
+                                <option value="">
+                                    Party 3
+                                </option>
+                            </select>
+                        </div>
+                        <div class="description_body">
+                            <textarea name="body" id="body" cols="50" rows="6" placeholder="A short description of yourself"></textarea>
+                        </div>
+                        
+                        <div>
+                            <button type="submit" class="button button-primary" >Save</button>
+                        </div>
+                </form>
+            </div>
+        
+        
+        
+        </div>
+        </div>
+    <div class="footer">
+		<p>&copy; Yunis</p>
+	</div>
+	<!-- /Footer -->
+</body>
+
+</html>   

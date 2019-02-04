@@ -20,7 +20,9 @@
             <ul class="main-nav">
                 <li><a href="admin_dashboard.html" title="home">Home</a></li>
                 <li><a href="manage_politicalparties.html" title="manage political parties"> Political </a></li>
-                <li><a href="government_office.html" title="Government Office">Government-Office</a></li>
+                 <li><a href="candidate.html">Vying</a></li>
+                <li><a href="user_profile.html">Profile</a></li>
+                <li><a href="government_office.html" title="Government Office">G-Office</a></li>
                 <li class="current"><a href="admin_dashboard.html" title="dashboard">Dashboard</a></li>
                 
             
@@ -35,9 +37,9 @@
               </a>
             </div>
             <div class="user-info">
-                Yunis |
-                <a href="sign-in.html" class="signout-btn">sign-out</a>
-            </div>
+                    Yunis |
+                    <a href="index.html" class="logout-btn">sign-out</a>
+                </div>
         </div>
         <!-- Left menu -->
         <div class="menu">
@@ -58,16 +60,11 @@
             <p>Create/Edit Political Parties</p>
             <form method="post" action="#">
                 <div>
-                    <input type="text" name="username" value="" placeholder="Username" >
+                    <input type="text" name="username" value="" placeholder="Name" >
                 </div>
-                <div>
-                    <input type="email" name="email" value="" placeholder="Email" >
-                </div>
-                <div>
-                    <input type="password" name="password" placeholder="Password" >
-                </div>
-                <div>
-                    <input type="password" name="passwordConfirmation" placeholder="Password confirmation" >
+
+                <div class="description_body">
+                    <textarea name="body" id="body" cols="50" rows="6" placeholder="A short description of the political party"></textarea>
                 </div>
                 <div>
                     <button type="submit" class="button button-primary" name="update_admin">Update</button>
@@ -82,17 +79,17 @@
                 <thead>
                     <th>N</th>
                     <th>Name</th>
-                    <th>Role</th>
+                    <th>Description</th>
                     <th>Edit</th>
                     <th>Delete</th>
                 </thead>
                 <tbody>
-                    <tr>
+                <tr>
                         <td>1</td>
                         <td>
-                            Kiingati
+                            Party 1
                         </td>
-                        <td>Women Rep</td>
+                        <td>This party is awesome</td>
                         <td class="btn">
                             <a class="fa fa-pencil edit"
                         href="#">
@@ -107,9 +104,9 @@
                     <tr>
                         <td>2</td>
                         <td>
-                            Shiru
+                            Party 2
                         </td>
-                        <td>MCA</td>
+                        <td>This party is amazing</td>
                         <td class="btn">
                             <a class="fa fa-pencil edit"
                         href="#">
@@ -124,26 +121,9 @@
                     <tr>
                         <td>3</td>
                         <td>
-                            Emily
+                            Party 3
                         </td>
-                        <td>Women Rep</td>
-                        <td class="btn">
-                            <a class="fa fa-pencil edit"
-                        href="#">
-                      </a>
-                        </td>
-                        <td class="btn">
-                            <a class="fa fa-trash-o delete"
-                          href="#">
-                      </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>
-                            Dorris
-                        </td>
-                        <td>Senator</td>
+                        <td>This party is awesome</td>
                         <td class="btn">
                             <a class="fa fa-pencil edit"
                         href="#">
@@ -158,9 +138,26 @@
                     <tr>
                         <td>5</td>
                         <td>
-                            Mukami
+                            Party 4
                         </td>
-                        <td>Governor</td>
+                        <td>This party is awesome</td>
+                        <td class="btn">
+                            <a class="fa fa-pencil edit"
+                        href="#">
+                      </a>
+                        </td>
+                        <td class="btn">
+                            <a class="fa fa-trash-o delete"
+                          href="#">
+                      </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            Party 5
+                        </td>
+                        <td>This party is awesome</td>
                         <td class="btn">
                             <a class="fa fa-pencil edit"
                         href="#">
@@ -175,9 +172,9 @@
                     <tr>
                         <td>6</td>
                         <td>
-                            Johny
+                            Party 6
                         </td>
-                        <td>Governor</td>
+                        <td>This party is awesome</td>
                         <td class="btn">
                             <a class="fa fa-pencil edit"
                         href="#">
@@ -192,13 +189,14 @@
                     <tr>
                         <td>7</td>
                         <td>
-                            Yunie
+                            Party 7
                         </td>
-                        <td>MP</td>
+                        <td>This party is awesome</td>
                         <td class="btn">
                             <a class="fa fa-pencil edit"
                         href="#">
                       </a>
+                        </td>
                         <td class="btn">
                             <a class="fa fa-trash-o delete"
                           href="#">
@@ -208,44 +206,9 @@
                     <tr>
                         <td>8</td>
                         <td>
-                            Kiptoo
+                            Party 
                         </td>
-                        <td>Governor</td>
-                        <td class="btn">
-                            <a class="fa fa-pencil edit"
-                        href="#">
-                      </a>
-                        </td>
-                       <td class="btn">
-                            <a class="fa fa-trash-o delete"
-                          href="#">
-                      </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>
-                            Tess
-                        </td>
-                        <td>MP</td>
-                        <td class="btn">
-                            <a class="fa fa-pencil edit"
-                        href="#">
-                      </a>
-                        </td>
-                       <td class="btn">
-                            <a class="fa fa-trash-o delete"
-                          href="#">
-                      </a>
-                        </td>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td>
-                            Mayah
-                        </td>
-                        <td>Senator</td>
+                        <td>This party is awesome</td>
                         <td class="btn">
                             <a class="fa fa-pencil edit"
                         href="#">
